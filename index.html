@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Портфолио</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="nav">
+                <span class="nav__title">
+                    Головна
+                </span>
+                <input type="checkbox" id="burger">
+                <label id="toggle" for="burger">
+                    <span></span>
+                </label>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="index.html">
+                                Головна
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="works.html">
+                                Мої роботи
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="self-dev.html">
+                                Україна 2024
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <header class="header">
+                <div class="header__box">
+                    <img class="header__img" src="img/header/header-img.png" alt="">
+                    <img class="header__avatar" src="img/header/i-avatar.jpg" alt="">
+                    <div class="header__name">
+                        <h3 class="header__title">
+                            Сініцин Михайло
+                        </h3>
+                        <h5 class="header__subtitle">
+                            Блог Front-End розробника
+                        </h5>
+                    </div>
+                    <div class="header__links">
+                        <a class="header__link" href="https://www.instagram.com/shadoweus/">
+                            <img class="header__social" src="img/socials/instagram.png" alt="">
+                        </a>
+                        <a class="header__link" href="https://www.linkedin.com/in/betacomputer-%D1%81%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%D0%BD-96019026b/">
+                            <img class="header__social" src="img/socials/linkedin.png" alt="">
+                        </a>
+                        <a class="header__link" href="https://www.pinterest.com/depcolin/">
+                            <img class="header__social" src="img/socials/pinterest.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header__content">
+                        <p class="header__text">
+                            Front-end розробник. Практик верстки сайтів. Створенням сайтів займаюсь з 2020 року. Зараз працюю над накопиченням проектів для свого портфоліо. Відповідально ставлюсь до завдань. Виконую роботи вчасно!
+                        </p>
+                        <div class="header__buttons">
+                            <a class="header__button header__button--red" href="works.html">
+                                Мої роботи
+                            </a>
+                            <a class="header__button header__button--blue" href="#" onclick="messageAlert()">
+                                Написати мені
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main">
+                <section class="slider-blog" id="blog">
+                    <div class="container">
+                        <div class="slider-blog__inner">
+                            <div class="slider-blog__item">
+                                <div class="slider-blog__wrapper">
+                                    <div class="slider-blog__box">
+                                        <p class="slider-blog__text slider-blog__text--bg">
+                                            Захід сонця біля річки
+                                        </p>
+                                        <p class="slider-blog__text slider-blog__text--two">
+                                            5.05.2023
+                                        </p>
+                                    </div>
+                                    <div class="slider-blog__box slider-blog__box--two">
+                                        <p class="slider-blog__text slider-blog__text--bg">
+                                            Прогулянка до парку
+                                        </p>
+                                        <p class="slider-blog__text slider-blog__text--two">
+                                            5.05.2023
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-blog__item">
+                                <div class="slider-blog__wrapper">
+                                    <div class="slider-blog__box slider-blog-box-three">
+                                        <p class="slider-blog__text slider-blog__text--bg">
+                                            Трішки кодингу
+                                        </p>
+                                        <p class="slider-blog__text slider-blog__text--two">
+                                            18.05.2023
+                                        </p>
+                                    </div>
+                                    <div class="slider-blog__box slider-blog__box--two slider-blog__box-four">
+                                        <p class="slider-blog__text slider-blog__text--bg">
+                                            Прогулянка з друзями
+                                        </p>
+                                        <p class="slider-blog__text slider-blog__text--two">
+                                            20.04.2023
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="news">
+                    <div class="container">
+                        <div class="news__inner">
+                            <div class="news__item">
+                                <div class="news__box">
+                                    <p class="news__text">
+                                        Нам довелося створити портфельний проект.
+                                        Мене поставили на роль teamleader`a, і я збираюся розповісти про свої труднощі на цій ролі і про те, що я пережив.
+                                    </p>
+                                    <p class="news__text">
+                                        Спочатку мені поставили завдання: створити тз для створення першої сторінки, зробив це я не зовсім добре. А після того як я відправив його своїм одногруппникам, моє лс почало розриватись від повідомлень. В когось щось не працює, комусь потрібна допомога. На перший день я почав думати, що не витримаю це, але все було насправді по іншому.
+                                    </p>
+                                    <p class="news__text">
+                                        Після першого дня, я трошки був в шоці від навантаження на TL-а, але все ж таки продовжував працювати та зверстав другу сторінку, та створив по ній тз. На цей раз технічне завдання було краще, питань було меньше, складнощів теж.                                    
+                                    </p>
+                                    <p class="news__text">
+                                        І так продовжувалось до підходження дедлайну, за день до сдачі проєкту ми зрозуміли, що в нас зверстанні сторінки але зовсім немає контенту. Та мені знову прийшлось доволяче багато допомагати людям для того щоб їх проєкт виглядав точно так, як і макет.
+                                    </p>
+                                    <p class="news__text">
+                                        І все ж таки прийшов час дедлайну і всі сдали проєкт вчасно та майже без помилок! За час цього проєкту "портфоліо" я навчився контактувати з командою, допомагати її. Тому що раніше я робив усе сам і мені це не заважало, але тепер я зрозумів що в команді працювати не так погано ї ми змогли зверстати проєкт, а я набрався з нього скіллів які допоможуть працювати мені у команді і приносити задовелення!
+                                    </p>
+                                    <span class="news__date">
+                                        18.05.2023
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- <div class="tabs">
+                                <a class="tabs__link" href="#">
+                                    <
+                                </a>
+                                <a class="tabs__link" href="#">
+                                    1
+                                </a>
+                                <a class="tabs__link tabs__link--active" href="#">
+                                    2
+                                </a>
+                                <a class="tabs__link" href="#">
+                                    3
+                                </a>
+                                <a class="tabs__link" href="#">
+                                    >
+                                </a>
+                            </div>
+                        </div> -->
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
